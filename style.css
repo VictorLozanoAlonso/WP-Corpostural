@@ -1,0 +1,200 @@
+/*
+Theme Name: blossom-spa-child
+Theme URI: https://www.corpostural.com
+Template: blossom-spa
+Author: VL
+Author URI: https://www.corpostural.com
+*/
+.nav-wrap {
+	background-color: #76cdc1;
+}
+p, .su-u-clearfix {
+	text-align: justify;
+}
+h1.site-title, p.site-title {
+	font-size: 20px;
+	margin: 0 0 5px 0;
+}
+h3{
+	font-size:21px;
+}
+.header-main {
+	padding: 8px 0;
+}
+.nav-wrap .nav-right {
+	flex: none;
+}
+#site-navigation {
+	display: inline;
+}
+/* header.page-header::after{
+	background: rgba(0, 0, 0, 0.05);
+} */
+header.page-header {
+	padding-top: 47px;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+}
+.page-header .page-title{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.imagen{
+	background-image: url('/wp-content/uploads/clinica-fisioterapia-villaverde.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 25px;
+}
+.grupo {
+	text-align: center;
+	width: 100%;
+}
+.pie {
+	padding: 10px;
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+.direcciones {
+	text-align: left;
+	font-size: 15px;
+	line-height: 18px;
+}
+.legal {
+	width: 45%;
+	text-align: center;
+}
+.legal ul{
+	color: #fff;
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.legal li{
+	float: left;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.legal li a{
+	color: #9cbe9c;
+}
+.su-row.tabla {
+	align-items: baseline;
+}
+.su-service{
+	margin: 0 0 0.5em !important;	
+}
+.su-row.contacto {
+	align-items: baseline;
+}
+@media screen and (min-width: 1200px) {	
+	.site-branding {
+	max-width: 410px;
+	}
+	.imagen{
+		height: 300px;
+	}
+	.su-row {
+		display: flex;
+		align-items: center;
+	}
+	.su-service {
+		font-size: 19px;	
+	}
+	.su-list{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 1199px) and (min-width: 1025px) {
+	.site-branding {
+	max-width: 300px;
+	}
+	.imagen{
+		height: 300px;
+	}
+	.legal {
+		width: 100%;
+		text-align: center;
+	}
+	.su-row {
+		display: flex;
+		align-items: center;
+	}
+	.su-service {
+		font-size: 19px;	
+	}
+	.su-list{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+	.site-branding {
+	max-width: 500px;
+	}
+	.header-main {
+		justify-content: center;
+		padding: 0;
+	}
+	h1.site-title {
+		font-size: 20px;
+		text-align: center;
+		margin: 20px 0 10px 0;
+	}
+	.site-title-wrap{
+		margin: -11px 0 0 0;
+		padding: 0 0 0 30px;
+	}
+	.main-navigation button.toggle-btn{
+		display: none;
+	}
+	.imagen{
+		height: 250px;
+	}
+	.legal {
+		width: 100%;
+		text-align: center;
+	}
+	.su-service {
+		font-size: 19px;	
+	}
+	.su-list{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.site-branding {
+	max-width: 500px;
+	}
+	.header-main {
+		justify-content: center;
+		padding: 0;
+	}
+	h1.site-title {
+		font-size: 20px;
+		text-align: center;
+		margin: 20px 0 10px 0;
+	}
+	.site-title-wrap{
+		margin: -11px 0 0 0;
+		padding: 0 0 0 30px;
+	}
+	.main-navigation button.toggle-btn{
+		display: none;
+	}
+	.imagen{
+		height: 150px;
+	}	
+	.pie {
+		width:100%;
+	}
+	.legal {
+		width: 100%;
+		text-align: center;
+	}
+	.legal li{
+		float: left;
+		padding: 0 10px;
+		font-size: 12px;
+	}
+}
